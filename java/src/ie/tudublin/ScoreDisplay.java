@@ -27,7 +27,7 @@ duration.add("1");
 
 }
 
-ArrayList<String> type = new ArrayList<String>();{
+ArrayList<String> type = new ArrayList<String>(); {
 	type.add("Crotchet");
 	type.add("Crotchet");
 	type.add("Quaver");
@@ -42,10 +42,10 @@ ArrayList<String> type = new ArrayList<String>();{
 	//String score = "D2E2F2G2A2B2c2d2";
 	//String score = "DEF2F2F2EFA2A2B2AFD2E2D2D2D2";
 	
-   
+
 	void printScores()
 	{
-   
+   println(type, duration, note);
 
 	}
 
@@ -61,7 +61,7 @@ ArrayList<String> type = new ArrayList<String>();{
 
 	public void setup() 
 	{
-		
+	
 	}
 
 	public void draw()
