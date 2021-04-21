@@ -1,5 +1,6 @@
 package ie.tudublin;
 
+
 import java.util.ArrayList;
 
 
@@ -7,10 +8,47 @@ import processing.core.PApplet;
 
 public class ScoreDisplay extends PApplet
 {
+	
+	ArrayList<String> note = new ArrayList<String>();{
+     note.add("A");
+	 note.add("F");
+	 note.add("G");
+	 note.add("G");
+	 note.add("G");
+
+}
+ArrayList<String> duration = new ArrayList<String>();{
+duration.add("2");
+duration.add("2");
+duration.add("1");
+duration.add("1");
+duration.add("1");
+
+
+}
+
+ArrayList<String> type = new ArrayList<String>();{
+	type.add("Crotchet");
+	type.add("Crotchet");
+	type.add("Quaver");
+	type.add("Quaver");
+	type.add("Quaver");
+
+}
+
+
+
 	String score = "DEFGABcd";
 	//String score = "D2E2F2G2A2B2c2d2";
 	//String score = "DEF2F2F2EFA2A2B2AFD2E2D2D2D2";
 	
+   
+	void printScores()
+	{
+   
+
+	}
+
 	public void settings()
 	{
 		size(1000, 500);
@@ -34,5 +72,7 @@ public class ScoreDisplay extends PApplet
 
 	void drawNotes()
 	{
+
+
 	}
 }

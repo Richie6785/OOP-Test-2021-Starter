@@ -36,10 +36,7 @@ Means:
 
 To complete this test:
 
-- Fork this repository
-- Clone your fork
-- Write a class called Note that has two private fields for note (a char) and duration (an int)
-- Write a constructor and appropriate toString method on the class Note
+
 - In the class ScoreDisplay, declare an ArrayList for holding instances of the Note class
 - In the class ScoreDisplay, write a method called loadScore that populates the ArrayList from the contents of the String score 
  
